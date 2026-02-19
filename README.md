@@ -3,11 +3,91 @@
 Language: English | [简体中文](./README.zh-CN.md)
 
 ## Overview
-`ai-email-marketing` is a LinkerTube sub-project focused on:
-- creator discovery (YouTube first)
-- dedup + save workflow
-- AI email draft generation
-- batch sending + delivery event tracking
+AI-powered growth platform: analyze your site, run SEO & GEO audits, generate social and ad creative, discover influencers, plan and execute a data-driven growth strategy—with an AI assistant and content scheduling.
+
+## Feature List
+
+### ① Website Analysis
+* Input website URL
+* Auto site scan
+* Brand analysis
+* Market positioning identification
+* Competitor identification
+
+---
+
+### ② SEO & GEO Analysis
+* Deep SEO audit
+* 60+ on-page metrics
+* AI search visibility (ChatGPT / Perplexity citations, etc.)
+* SEO issue identification and recommendations
+
+---
+
+### ③ Social Content Generation
+* LinkedIn content generation
+* X (Twitter) content generation
+* Reddit content generation
+* Brand voice matching
+* Target audience matching
+
+---
+
+### ④ Ad Creative Generation
+* Competitor ad analysis
+* Ad creative generation
+* Meta Ads content generation
+* Google Ads content generation
+
+---
+
+### ⑤ Influencer Discovery
+* Find influencers that fit your brand
+* Audience analysis
+* Engagement metrics
+
+---
+
+### ⑥ Growth Strategy
+* 12-week growth plan (Growth Calendar)
+* Priority strategy ranking
+* Actionable growth tasks
+
+---
+
+### ⑦ AI Growth Assistant
+* Chat with growth data
+* Real-time growth suggestions
+* Execute workflows via natural language
+
+---
+
+### ⑧ Content Execution & Optimization
+* Content scheduling
+* Performance tracking
+* Auto iteration and optimization
+
+---
+
+### ⑨ Data Engine
+* LinkedIn analytics
+* X/Twitter algorithm data
+* Reddit analytics
+* AI text humanization detection
+* Directory database
+
+---
+
+### ⑩ Product Features
+* “Analyze my site” (URL entry)
+* 60-second result generation
+* Credits system
+* Free / Pro / Enterprise tiers
+* Community support
+* Slack support (Pro)
+* Advanced Analytics
+* Multi-account (Enterprise)
+* Custom integrations
 
 ## Current Status
 - Backend initialization: completed (FastAPI + Supabase + core APIs)

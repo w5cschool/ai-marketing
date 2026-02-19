@@ -3,11 +3,91 @@
 语言: [English](./README.md) | 简体中文
 
 ## 项目简介
-`ai-email-marketing` 是服务于 LinkerTube 的子系统，目标是实现：
-- 达人发现（YouTube 优先）
-- 去重与保存
-- AI 邮件草稿生成
-- 批量发送与事件追踪
+AI 驱动的增长平台：分析网站、做 SEO/GEO 审核、生成社媒与广告创意、发现达人、规划并执行数据驱动的增长策略，配合 AI 助手与内容排程。
+
+## 功能点清单
+
+### ① 网站分析（Website Analysis）
+* 输入网站 URL
+* 自动扫描网站
+* 品牌分析
+* 市场定位识别
+* 竞品识别
+
+---
+
+### ② SEO & GEO 分析
+* SEO 深度审核
+* 60+ On-page 指标检测
+* AI 搜索可见度检测（ChatGPT / Perplexity 等引用情况）
+* SEO 问题识别与建议
+
+---
+
+### ③ 社交媒体内容生成
+* LinkedIn 内容生成
+* X（Twitter）内容生成
+* Reddit 内容生成
+* 品牌语气匹配
+* 目标受众匹配
+
+---
+
+### ④ 广告创意生成
+* 竞品广告分析
+* 广告创意生成
+* Meta Ads 内容生成
+* Google Ads 内容生成
+
+---
+
+### ⑤ Influencer Discovery
+* 找适合品牌的 Influencer
+* 受众分析
+* Engagement 数据分析
+
+---
+
+### ⑥ Growth Strategy
+* 12 周增长计划（Growth Calendar）
+* 优先级策略排序
+* 可执行增长任务
+
+---
+
+### ⑦ AI Growth Assistant
+* 与增长数据聊天
+* 实时增长建议
+* 自然语言执行 workflow
+
+---
+
+### ⑧ 内容执行与优化
+* 内容排程（Schedule）
+* 性能追踪（Performance Tracking）
+* 自动迭代优化
+
+---
+
+### ⑨ 数据驱动系统（Data Engine）
+* LinkedIn 数据分析
+* X/Twitter 算法数据
+* Reddit 数据分析
+* AI 文本人类化检测
+* Directory 数据库
+
+---
+
+### ⑩ 产品层功能
+* Analyze my site（URL 输入入口）
+* 60 秒生成结果
+* Credits 系统
+* 免费版 / Pro / Enterprise
+* 社区支持
+* Slack 支持（Pro）
+* 高级分析（Advanced Analytics）
+* 多账户（Enterprise）
+* 自定义集成
 
 ## 当前状态
 - 后端初始化：已完成（FastAPI + Supabase + 主要 API）
