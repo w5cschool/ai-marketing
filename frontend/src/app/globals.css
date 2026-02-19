@@ -1,0 +1,164 @@
+:root {
+  --bg: #f4f2ea;
+  --fg: #1e293b;
+  --card: #fff9ee;
+  --accent: #0f766e;
+  --muted: #475569;
+  --border: #d6d3d1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--fg);
+  background:
+    radial-gradient(circle at 15% 20%, #fff4cf 0%, transparent 35%),
+    radial-gradient(circle at 85% 0%, #d8f3f0 0%, transparent 35%),
+    var(--bg);
+  font-family: "Space Grotesk", "Avenir Next", sans-serif;
+}
+
+a {
+  color: inherit;
+}
+
+main {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.grid {
+  display: grid;
+  gap: 16px;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.top-nav-wrap {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(244, 242, 234, 0.94);
+  border-bottom: 1px solid var(--border);
+  backdrop-filter: blur(6px);
+}
+
+.top-nav {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 10px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.top-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-weight: 700;
+}
+
+.top-nav-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.inline-form {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.inline-form input {
+  height: 32px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0 8px;
+  min-width: 210px;
+}
+
+.inline-form button {
+  height: 32px;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  color: white;
+  background: var(--accent);
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.top-nav-sub {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 24px 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.chip {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 12px;
+}
+
+.chip-pending {
+  background: #f1f5f9;
+}
+
+.chip-running {
+  background: #fef3c7;
+}
+
+.chip-done {
+  background: #dcfce7;
+}
+
+.chip-failed {
+  background: #fee2e2;
+}
+
+.task-list {
+  display: grid;
+  gap: 8px;
+}
+
+.task-row {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 10px;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 8px;
+}
+
+@media (max-width: 900px) {
+  .top-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .inline-form input {
+    min-width: 140px;
+  }
+}
